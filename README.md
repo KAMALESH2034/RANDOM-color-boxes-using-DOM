@@ -2,6 +2,8 @@ Hello coders....
   This repository contains series of docs which explains step by step codeing to create a intractive web page that creates random colored, sized objects for every 2 sec.
   This project was achieved using simple Basic DOMs concept of Advanced JS.
 
+  Try click here.. https://randomboxes.netlify.app/   [netlify deployment]
+
   1st doc : 1_RAND_box_RAND_position.html 
     creating boxes of same size with random position for each box, for every execution [ Try Refresh the Page for diff o/p ]
 
