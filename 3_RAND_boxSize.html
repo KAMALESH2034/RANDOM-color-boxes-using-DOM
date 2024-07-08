@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        for(let i=0;i<100;i++){
+            let box = document.createElement("div");
+
+            let randW = Math.floor(Math.random() * 100);
+            let randH = Math.floor(Math.random() * 100);
+
+            box.style.width = randW + 'px';
+            box.style.height =randH + 'px';
+
+            let randR = Math.floor(Math.random() * 255);
+            let randG = Math.floor(Math.random() * 255);
+            let randB = Math.floor(Math.random() * 255);
+
+            box.style.backgroundColor = `rgb(${randR},${randG},${randB})`;
+
+            box.style.marginTop ="2px";
+            box.style.position = "absolute";
+            box.style.top = Math.floor(Math.random()* 800) + "px";
+            box.style.left = Math.floor(Math.random()* window.innerWidth - 100) + "px";
+            
+            document.body.appendChild(box);
+        
+        }
+    </script>
+    
+</body>
+</html>
