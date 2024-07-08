@@ -3,6 +3,7 @@ Hello coders....
   This project was achieved using simple Basic DOMs concept of Advanced JS.
 
   Try click here.. https://randomboxes.netlify.app/   [netlify deployment]
+                   https://kamalesh2034.github.io/RANDOM-color-boxes-using-DOM/  [github deployment]
 
   1st doc : 1_RAND_box_RAND_position.html 
     creating boxes of same size with random position for each box, for every execution [ Try Refresh the Page for diff o/p ]
